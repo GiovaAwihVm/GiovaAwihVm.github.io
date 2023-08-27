@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Carter+One&family=Lilita+One&display=swap');
+ 
+ 
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 100px auto 0px;
+}
+a {
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #011627;
+    padding: 20px;
+}
+ 
+.nav-link {
+    color: #FDFFFC;
+    font-size: 18px;
+    margin: 0px 32px;  
+}
+    a:visited {
+    color:#fdfffc;
+    text-decoration: none;
+    }
+    a:hover {
+    color: rgb(253, 246, 152); 
+    font-size: 20px;
+    }
+    a:active {
+    color:  #011627;
+}
+/*-----------------------*/
+ 
+.hero {
+    width: 100%;
+    opacity: 0.4;
+    max-height: 450px;
+    max-width: auto;
+    margin-bottom: 30px;
+}
+.titolo {
+    font-family: Carter One ;
+    text-align: center;
+    position: relative;
+    margin-top: -380px;
+    font-size: 90px;
+    font-weight: 1400;
+}
+ 
+/*----------------*/
+    /* BIBLIOTECA */
+    #introbiblioteca {
+        color: #011627;
+        border-top: 2px solid #011627;
+ 
+    }
+ 
+    #FotoBiblioteca{
+        width: 263px;
+        margin: -195px 0px 20px 210px;
+        border-radius: 10px;
+    }
+ 
+    #biblioteca {
+        background-color: #011627;
+    }
+ 
+    #textbiblioteca {
+        color: #FDFFFC;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 15px 0px 0px 20px;
+    }
+ 
+    #textbiblioteca_indirizzo {
+        color: #FDFFFC;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        margin: -20px 0px 0px 20px
+    }
+ 
+    #biblioteca_button {
+        margin: 30px 0px 15px 20px
+    }
+ 
+ 
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/*come adattare il sito da computer a telefono*/
+@media screen and (max-width: 500px) {
+    
+    
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+ 
+    .titolo {
+        margin-top: -300px;
+        font-size: 60px;
+        font-weight: 400;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    
+    .nav {
+        background-color: #011627;
+    }
+    .hero{
+        margin-top: -18px;
+    }
+    .nav-link {
+        color: #FDFFFC;
+        font-size: 18px;
+        margin: 0px 32px;  
+    }
+        a:visited {
+        color:#fdfffc;
+        text-decoration: none;
+        }
+        a:hover {
+        color: rgb(253, 246, 152); 
+        font-size: 20px;
+        }
+        a:active {
+        color:  #011627;
+    }
+ 
+    #icona_home {
+        margin-top: -2px;
+    }
+    #home {
+        font-size: 19px;
+        margin-left: -32px;
+    }
+ 
+    #icona_biblioteca {
+        color:#fdfffc;
+        margin-top: -1px;
+        margin-left: -13px;
+    }
+    #biblioteca {
+        font-size: 19px;
+        margin-left: 0px;
+    }
+ 
+    #icona_chi-siamo {
+        margin-top: -2px;
+        margin-left: 14px;
+        margin-right: -12px;
+        color:#fdfffc;
+    }
+    #chi-siamo {
+        font-size: 19px;
+        margin-left: 13px;
+    }
+    
+    /*----------------------------*/
+ 
+    div#all {
+        padding: 30px 30px;
+        background-color: #FDFFFC;
+        border-top: 2px solid #01162793;
+    }
+    div#all div {
+        border-radius: 10px;
+        margin-bottom: 45px;
+    }
+    .domanda {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 16px;
+        padding-bottom: 0px;
+    }
+ 
+    .risposta {
+        font-size: 17px;
+        font-weight: 700;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+ 
+    .libro {
+    font-style: italic;
+    margin-top: -5px;
+    padding-left: 15px;
+    }
+
+    /*---------------*/
+   
+    #c1 {
+        min-width: 300px;
+        width: 100%;
+        color: #FDFFFC;
+        background-color: #011627;
+        border-radius: 10px;
+        background-image: linear-gradient(to top right, #043c6d, #011627);
+        margin-top: -30px;
+        padding-bottom: 2px;
+    }
+    img.libro {
+        width: 35%;
+        float: center;
+        margin-left: 31%;
+    }
+    #c2 {
+        background-color: #2EC4B6;
+        padding-bottom: 2px;
+
+    }
+    
+    #c3 {
+        background-color: #E71D36;
+        padding-bottom: 2px;
+    }
+    
+    #c4 {
+        background-color: #FF9F1C;
+        padding-bottom: 2px;
+    }
+    
+    /*#c5 {
+        color: #FDFFFC;
+        background-color: #011627; 
+    */
+    
+ 
+    /*-------------------------------------*/
+    /* BIBLIOTECA */
+    #introbiblioteca {
+        color: #011627;
+        margin-top: -30px;
+        border-top: 2px solid #011627;
+ 
+    }
+ 
+    #FotoBiblioteca{
+        width: 263px;
+        margin: -195px 0px 20px 210px;
+        border-radius: 10px;
+    }
+ 
+    #biblioteca {
+        background-color: #011627;
+        margin: 0;
+    }
+ 
+    #textbiblioteca {
+        color: #FDFFFC;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 15px 0px 0px 20px;
+    }
+ 
+    #textbiblioteca_indirizzo {
+        color: #FDFFFC;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        margin: -20px 0px 0px 20px;
+    }
+ 
+    #biblioteca_button {
+        margin: 30px 0px 15px 20px;
+    }
+}
+ 
+    
+   
+    /*-------------------------------------*/
+ 
+    /*color: #011627;
+    color: #FDFFFC;
+    color:#2EC4B6;
+    color:#E71D36;
+    color: #FF9F1C; */
